@@ -1,58 +1,46 @@
-# cpp-calculator
-Simple console calculator written in C++
-🧮 C++ Calculator (Clang/LLVM)
+🧮 Kalkulator C++
 
-A simple console-based calculator written in C++ and compiled using Clang/LLVM.
-The program performs basic arithmetic operations and was created as part of learning the fundamentals of C++.
+Prosty kalkulator konsolowy napisany w języku C++, kompilowany przy użyciu Clang/LLVM.
+Program umożliwia wprowadzenie dwóch liczb i wybranie jednej z czterech operacji:
 
-✨ Features
+Dodawanie (+)
 
-Addition (+)
+Odejmowanie (-)
 
-Subtraction (-)
+Mnożenie (*)
 
-Multiplication (*)
+Dzielenie (/) – z zabezpieczeniem przed dzieleniem przez zero
 
-Division (/) with protection against division by zero
+Dodatkowo program mierzy czas kompilowania prostego programu.
 
-Clear and simple console interface
+✨ Funkcje programu
 
-🛠️ Building with Clang/LLVM
-Linux / macOS:
+Obsługa wejścia od użytkownika
 
-clang++ calculator.cpp -o calculator
-./calculator
+Wybór operacji za pomocą instrukcji switch
 
-Windows (LLVM toolchain):
+Zabezpieczenie przed dzieleniem przez zero
 
-clang++ calculator.cpp -o calculator.exe
-calculator.exe
+Pomiar czasu kompilowania programu
 
+🎯 Cel projektu
 
-Make sure Clang/LLVM is added to your system PATH.
+Projekt został stworzony, aby:
 
-🎯 Project Goal
+Nauczyć się podstaw języka C++
 
-This project was created to:
+Ćwiczyć obsługę zmiennych, operatorów i instrukcji switch
 
-learn the basics of C++
+Poznać podstawy pracy z czasem w C++ (std::chrono)
 
-practice handling user input
+Tworzyć proste aplikacje konsolowe
 
-work with the switch statement
+🚀 Plany na przyszłość
 
-get familiar with the Clang/LLVM compiler
+Dodanie pętli, aby kalkulator działał wielokrotnie
 
-build simple CLI applications
+Obsługa potęg i pierwiastków
 
-🚀 Future Improvements
+Ulepszone menu wyboru operacji
 
-Possible enhancements:
-
-Loop-based calculator (runs until the user types a quit command)
-
-Support for power, square root, and advanced math functions
-
-Improved menu-based interface
-
-GUI version using Qt or ImGui
+Wersja GUI w Qt lub ImGui
