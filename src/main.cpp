@@ -46,15 +46,9 @@ int main()
         cout << "Nieznany operator!" << endl;
         break;
     }
-
-    auto start = chrono::high_resolution_clock::now();
-
-    for (int i = 0; i < 1000000; ++i)
-    {
-        int x = i * i;
-    }
     return 0;
 }
+
 
 
 
