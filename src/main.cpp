@@ -53,12 +53,8 @@ int main()
     {
         int x = i * i;
     }
-
-    auto end = chrono::high_resolution_clock::now();
-    chrono::duration<double> diff = end - start;
-    cout << "Czas wykonania programu: " << diff.count() << " sekund\n";
-
     return 0;
 }
+
 
 
