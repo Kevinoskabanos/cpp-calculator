@@ -32,7 +32,7 @@ int main()
         break;
 
     case '/':
-        if (a/b == 0)
+        if (b == 0)
         {
             cout << "Blad: nie mozna dzielic przez zero!" << endl;
         }
@@ -60,4 +60,5 @@ int main()
 
     return 0;
 }
+
 
