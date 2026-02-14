@@ -21,8 +21,6 @@ Wybór operacji za pomocą instrukcji switch
 
 Zabezpieczenie przed dzieleniem przez zero
 
-Pomiar czasu kompilowania programu
-
 🎯 Cel projektu
 
 Projekt został stworzony, aby:
