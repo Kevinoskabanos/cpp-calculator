@@ -11,8 +11,6 @@ Mnożenie (*)
 
 Dzielenie (/) – z zabezpieczeniem przed dzieleniem przez zero
 
-Dodatkowo program mierzy czas kompilowania prostego programu.
-
 ✨ Funkcje programu
 
 Obsługa wejścia od użytkownika
