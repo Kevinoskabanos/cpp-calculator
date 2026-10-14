@@ -5,6 +5,8 @@ using namespace std;
 
 int main()
 {
+
+
     double a, b;
     char znak;
 
@@ -20,35 +22,35 @@ int main()
     switch (znak)
     {
     case '+':
-        cout << "Wynik: " << a + b << endl;
+        cout << "\033[1;32mWynik: " << a + b << "\033[0m" <<  endl;
         break;
 
     case '-':
-        cout << "Wynik: " << a - b << endl;
+        cout << "\033[1;32mWynik: " << a - b << "\033[0m" << endl;
         break;
 
     case '*':
-        cout << "Wynik: " << a * b << endl;
+        cout << "\033[1;32mWynik: " << a * b << "" << "\033[0m" <<  endl;
         break;
 
     case '/':
         if (b == 0)
         {
-            cout << "Blad: nie mozna dzielic przez zero!" << endl;
+            cout << "\033[1;31mBlad: nie mozna dzielic przez zero!" << "\033[0m" << endl;
         }
         else
         {
-            cout << "Wynik: " << a / b << endl;
+            cout << "\033[1;32mWynik: " << a / b << "\033[0m" << endl;
         }
         break;
 
     default:
-        cout << "Nieznany operator!" << endl;
+        cout << "\033[1;31mNieznany operator!" << "\033[0m" <<  endl;
         break;
     }
+
     return 0;
 }
-
 
 
 
