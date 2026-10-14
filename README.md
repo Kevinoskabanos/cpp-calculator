@@ -19,6 +19,8 @@ Wybór operacji za pomocą instrukcji switch
 
 Zabezpieczenie przed dzieleniem przez zero
 
+Kolorowanie danych wyjściowych w terminalu (zielone wyniki, czerwone komunikaty o błędach za pomocą kodów ANSI)
+
 🎯 Cel projektu
 
 Projekt został stworzony, aby:
