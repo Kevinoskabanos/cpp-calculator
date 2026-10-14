@@ -21,6 +21,8 @@ Zabezpieczenie przed dzieleniem przez zero
 
 Kolorowanie danych wyjściowych w terminalu (zielone wyniki, czerwone komunikaty o błędach za pomocą kodów ANSI)
 
+Dodana petla zeby kalkulator dzialal wielokrotnie
+
 🎯 Cel projektu
 
 Projekt został stworzony, aby:
@@ -34,8 +36,6 @@ Poznać podstawy pracy z czasem w C++ (std::chrono)
 Tworzyć proste aplikacje konsolowe
 
 🚀 Plany na przyszłość
-
-Dodanie pętli, aby kalkulator działał wielokrotnie
 
 Obsługa potęg i pierwiastków
 
