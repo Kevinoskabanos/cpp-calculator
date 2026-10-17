@@ -31,8 +31,6 @@ Nauczyć się podstaw języka C++
 
 Ćwiczyć obsługę zmiennych, operatorów i instrukcji switch
 
-Poznać podstawy pracy z czasem w C++ (std::chrono)
-
 Tworzyć proste aplikacje konsolowe
 
 🚀 Plany na przyszłość
